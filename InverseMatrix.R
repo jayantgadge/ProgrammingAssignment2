@@ -13,7 +13,7 @@ makeCacheMatrix <- function(x = matrix()) {	## define function with default mode
         setInverse <- function(inverse) invMat <<- inverse   	## assigns value of invMat in parent environment
         getInverse <- function() invMat				 	## gets the value of invMat 
         list(set = set, get = get, setInverse = setInverse, getInverse = getInverse)## This is used to refer   
- 														## the functions with the $ operator
+ 										   ## the functions with the $ operator
              
 }
 
